@@ -2,29 +2,29 @@
 
 ## Introduction
 
-This project presents a comprehensive analysis of road accidents, providing valuable insights and recommendations to enhance road safety measures. By leveraging data visualization techniques, the analysis aims to identify patterns, trends, and contributing factors related to accidents, ultimately supporting informed decision-making processes.
+This project presents a comprehensive analysis of road accidents, providing valuable insights and recommendations to enhance road safety measures. By leveraging data visualisation techniques, the analysis aims to identify patterns, trends, and contributing factors related to accidents, ultimately supporting informed decision-making processes.
 
 ## Aim and Objectives
 
 The primary aim of this project is to create an interactive dashboard that enables stakeholders, policymakers, and the general public to gain a deeper understanding of road accident dynamics. The specific objectives are as follows:
 
-1. **Analyze Accident Severity**: Investigate the distribution of fatal, serious, and slight accidents, highlighting the areas that require immediate attention and targeted interventions.
+1. **Analyse Accident Severity**: Investigate the distribution of fatal, serious, and slight accidents, highlighting the areas that require immediate attention and targeted interventions.
 
 2. **Identify Contributing Factors**: Examine the influence of various factors, such as weather conditions, road types, urban/rural areas, and vehicle types, on accident occurrences.
 
-3. **Visualize Temporal and Spatial Patterns**: Provide visual representations of accident trends over time and their geographic distribution, enabling the identification of hotspots and high-risk areas.
+3. **Visualise Temporal and Spatial Patterns**: Provide visual representations of accident trends over time and their geographic distribution, enabling the identification of hotspots and high-risk areas.
 
 4. **Facilitate Data Exploration**: Develop an interactive dashboard that allows users to filter and explore the data based on specific criteria, such as weather conditions, road conditions, and accident dates.
 
 ## About the Dashboard
 
-The Road Accident Analysis Dashboard is a comprehensive tool that combines multiple visualizations and interactive features to present a holistic view of road accident data. Key components include:
+The Road Accident Analysis Dashboard is a comprehensive tool that combines multiple visualisations and interactive features to present a holistic view of road accident data. Key components include:
 
-- **Accident Statistics**: An overview of the total number of accidents, categorized by severity levels.
+- **Accident Statistics**: An overview of the total number of accidents, categorised by severity levels were determined with the use of Data Analysis Expression(DAX)
 - **Environmental Factors**: Analysis of the impact of weather and road conditions, as well as lighting conditions (daylight/darkness), on accident occurrences.
 - **Geographical Distribution**: Visualizations depicting the distribution of accidents in rural and urban areas, as well as a geographic map for spatial analysis.
 - **Road Type and Vehicle Involvement**: Insights into the relationship between road types, accident severity, and vehicle types involved in accidents.
-- **Monthly Trends**: Visualization of accident occurrences over the course of a year, allowing for the identification of seasonal patterns or spikes.
+- **Monthly Trends**: Visualisation of accident occurrences over the course of a year, allowing for the identification of seasonal patterns or spikes.
 - **Slicers Panel**: Interactive filtering capabilities based on weather conditions, road conditions, and accident dates, enabling users to explore specific scenarios.
 
 ## Insights and Recommendations
