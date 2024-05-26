@@ -1,31 +1,50 @@
 # Road Accident Analysis Dashboard
-
+![Alt Text](accident.jpg)
 ## Introduction
 
-This project presents a comprehensive analysis of road accidents, providing valuable insights and recommendations to enhance road safety measures. By leveraging data visualisation techniques, the analysis aims to identify patterns, trends, and contributing factors related to accidents, ultimately supporting informed decision-making processes.
+This project focuses on analyzing UK road accident data to gain insights into patterns, trends, and key factors contributing to accident occurrences. The analysis aims to identify effective strategies for reducing road accidents by exploring the relationships between variables such as weather conditions, road types, vehicle types, and temporal patterns.
 
-## Aim and Objectives
+## Data Source
 
-The primary aim of this project is to create an interactive dashboard that enables stakeholders, policymakers, and the general public to gain a deeper understanding of road accident dynamics. The specific objectives are as follows:
+The dataset used for this analysis is sourced from [click here](https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-2021.csv) and dataset data guide [click here](https://data.dft.gov.uk/road-accidents-safety-data/dft-road-casualty-statistics-collision-2021.csv). It contains information on road accidents in the UK, including details such as accident severity, location, time, weather conditions, road surface conditions, and vehicle types involved. The dataset covers the time period from Jan to Dec, 2021.
 
-1. **Analyse Accident Severity**: Investigate the distribution of fatal, serious, and slight accidents, highlighting the areas that require immediate attention and targeted interventions.
+## Data Transformation
 
-2. **Identify Contributing Factors**: Examine the influence of various factors, such as weather conditions, road types, urban/rural areas, and vehicle types, on accident occurrences.
+The road accident dataset was preprocessed using Power Query to ensure data quality and integrity. The following steps were performed:
+  1.  Handling missing values: Rows with missing values, denoted as -1, were removed from the dataset.
+  ![Alt}()
+  3.  Converting numerical values to categorical: Columns such as weather conditions, road surface conditions, road type, and number of vehicles were converted from numerical to categorical format for better analysis.
+  ![Alt}()
 
-3. **Visualise Temporal and Spatial Patterns**: Provide visual representations of accident trends over time and their geographic distribution, enabling the identification of hotspots and high-risk areas.
+## Data Modelling
 
-4. **Facilitate Data Exploration**: Develop an interactive dashboard that allows users to filter and explore the data based on specific criteria, such as weather conditions, road conditions, and accident dates.
+No modelling was required since by default the downloaded dataset were in a table and that was used for the analysis
 
-## About the Dashboard
+## Analysis and Visualizations
 
-The Road Accident Analysis Dashboard is a comprehensive tool that combines multiple visualisations and interactive features to present a holistic view of road accident data. Key components include:
+The analysis utilized various visualization tools and techniques to explore the UK road accident dataset:
 
-- **Accident Statistics**: An overview of the total number of accidents, categorised by severity levels were determined with the use of Data Analysis Expression(DAX)
-- **Environmental Factors**: Analysis of the impact of weather and road conditions, as well as lighting conditions (daylight/darkness), on accident occurrences.
-- **Geographical Distribution**: Visualizations depicting the distribution of accidents in rural and urban areas, as well as a geographic map for spatial analysis.
-- **Road Type and Vehicle Involvement**: Insights into the relationship between road types, accident severity, and vehicle types involved in accidents.
-- **Monthly Trends**: Visualisation of accident occurrences over the course of a year, allowing for the identification of seasonal patterns or spikes.
-- **Slicers Panel**: Interactive filtering capabilities based on weather conditions, road conditions, and accident dates, enabling users to explore specific scenarios.
+-  Data Analysis Expressions (DAX): Used to calculate total accident occurrences and severity types.
+-  Stacked Bar Chart: Employed to analyze the distribution of accident severity across different road types.
+-  Stacked Area Chart: Investigated the relationship between weather conditions and road surface conditions in accident occurrences.
+-  Heat Map: Visualized the geographical distribution of accident incidents.
+-  Other visualizations: Pie charts, donut charts, cards, matrix, multi-row cards, and slicers were used to present additional insights.
+
+## Key Findings
+
+The analysis revealed several key findings:
+-  A total of 37.4k accidents were recorded, with the majority being slight accidents (29.1k), followed by serious accidents (7.8k) and fatal accidents (498).
+-  Most accidents occurred during daylight hours (72.57%) compared to dark periods (27.43%).
+-  Urban areas accounted for 69.37% of accidents, while rural areas accounted for 30.62%.
+-  Accidents were more frequent during the wind season and in the month of September (2,267 accident indices).
+-  Motorcycles were involved in a high number of accidents (37,378), while buses had minimal involvement (2 accidents).
+-  Police attended the scene in 25,672 out of the total 37.4k accidents.
+-  The heat map highlighted accident hotspots across the environs.
+
+## Dashboard Overview
+
+The interactive dashboard provides a comprehensive view of the UK road accident analysis. It includes visualizations such as cards displaying total accidents and severity types, donut charts showing the distribution of accidents by area, a stacked area chart illustrating the relationship between weather and road surface conditions, and a heat map depicting accident hotspots. The dashboard allows users to filter and explore the data based on various parameters.
+![WhatsApp Image 2024-03-21 at 10 52 28 PM](https://github.com/PeterAyan/insightfulmind/assets/164429264/b82d16e9-cb9b-474a-aa54-5c1ed35f3354)
 
 ## Insights and Recommendations
 
@@ -43,4 +62,4 @@ Through the analysis presented in this dashboard, several key insights and recom
 
 By leveraging the insights derived from this Road Accident Analysis Dashboard, policymakers and authorities can make data-driven decisions to enhance road safety, reduce accident rates, and ultimately save lives.
 
-![WhatsApp Image 2024-03-21 at 10 52 28 PM](https://github.com/PeterAyan/insightfulmind/assets/164429264/b82d16e9-cb9b-474a-aa54-5c1ed35f3354)
+
